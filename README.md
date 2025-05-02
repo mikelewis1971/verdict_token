@@ -52,7 +52,7 @@ You can interact with VerdictToken through a simple website or cURL commands.
 ```bash
 curl -X POST https://verdict-api.fly.dev/mint \
  -H "Content-Type: application/json" \
- -d '{"name":"TartarLocker", "amount":3}'
+ -d '{"name":"TartarLocker", "number": "1234pnd", "amount":3, "requiredConsensus": 1}'
 ```
 
 Returns:
@@ -68,7 +68,7 @@ You copy-paste this into MetaMask as a custom transaction.
 ```bash
 curl -X POST https://verdict-api.fly.dev/burn \
  -H "Content-Type: application/json" \
- -d '{"name":"TartarLocker", "amount":1}'
+ -d '{"name":"TartarLocker", "number": "12345ok", "amount":1}'
 ```
 
 ### ✅ Check Consensus
