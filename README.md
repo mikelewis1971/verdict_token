@@ -20,6 +20,7 @@ It's a cryptographic way to create **irreversible decisions** — and each actio
 
 * **Contract Address:** `0xADCdb832D1c4fa4262E64E7b0318695Fcb46c9d9`
 * **Chain:** Polygon Mainnet
+* **FrontEnd API:** [https://verdict-frontend.fly.dev/]
 * **Backend API:** [https://verdict-api.fly.dev/](https://verdict-api.fly.dev/)
 * **Deployer:** `0x0F6dbb5B71372aB1d77Ed67D1260083cF9f07476`
 * **Oracle:** POL/USD at `0xFE66C0da9c9f6c5D04D3f2B2CB59AB5A1b10a17E`
